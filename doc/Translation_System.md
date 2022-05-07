@@ -31,7 +31,8 @@ There are breaks in the UI sometimes (especially if translations are used within
 
 ## Calling translation function
 
-The function works on the `i18n` gem [here](https://guides.rubyonrails.org/i18n.html) and [yaml file structure](https://github.com/publiclab/plots2/tree/main/config/locales). Each yaml file in mapped with corresponding translation resource on [Transifex project](https://www.transifex.com/publiclab/publiclaborg/dashboard/). This function from any `.html.erb` view files.
+The function works on the `i18n` gem [here](https://guides.rubyonrails.org/i18n.html) and [yaml file structure](https://github.com/publiclab/plots2/tree/main/config/locales). Each yaml file is mapped with corresponding translation resource on the [Transifex project](https://www.transifex.com/publiclab/publiclaborg/dashboard/). This function may be called from any of the `.html.erb` view files.
+
 
 Here is how the call looks
 
